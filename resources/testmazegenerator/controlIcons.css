@@ -1,0 +1,42 @@
+.play{
+    -fx-icon-code: "FontAwesome:f04b";    
+}
+
+.pause{
+    -fx-icon-code: "FontAwesome:f04c";
+}
+
+.fordward{
+    -fx-icon-code: "FontAwesome:f04e";
+}
+
+.stepfordward{
+    -fx-icon-code: "FontAwesome:f051";
+}
+
+.doubleArrow{
+    -fx-icon-code: "FontAwesome:f07e";
+}
+
+.camera{
+    -fx-icon-code: "FontAwesome:f030";
+    -fx-icon-size: 20px;
+    -fx-fill: gray;
+    -fx-font-smoothing-type: gray;
+}
+
+.control{
+    -fx-icon-size: 20px;
+    -fx-fill: gray;
+    -fx-font-smoothing-type: gray;
+}
+
+.control:hover{
+    -fx-fill: greenyellow; 
+    -fx-effect: dropshadow(three-pass-box, derive(cadetblue, -20%), 20, 0.7, 0, 0);
+}
+
+.control:pressed{
+    -fx-fill: green;
+    -fx-effect: dropshadow(three-pass-box, derive(cadetblue, -20%), 0, 0, 0, 0);
+}
